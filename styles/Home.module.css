@@ -92,6 +92,17 @@
   border-color: #0070f3;
 }
 
+.link {
+  text-decoration: underline;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;

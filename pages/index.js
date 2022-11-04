@@ -17,8 +17,10 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          This page is owned by: 
+          <a href="https://github.com/ashsobeck" className={styles.link}>
+            <code className={styles.code}>asobeck</code>
+          </a>
         </p>
 
         <div className={styles.grid}>
