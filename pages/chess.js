@@ -9,7 +9,6 @@ const GLYPHS = {
 };
 
 export default function ChessPage() {
-  console.log(styles);
   return (
     <div className={styles.main}>
       <div className={styles['chess-container']}>
