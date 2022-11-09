@@ -9,7 +9,14 @@ const GLYPHS = {
 };
 
 export default function ChessPage() {
-  return <div ref={makeGame}/>
+  console.log(styles);
+  return (
+    <div className={styles.main}>
+      <div className={styles['chess-container']}>
+            <div ref={makeGame}/>
+          </div>
+    </div>
+  );
 }
 
 const makeGame = ( div ) => {
